@@ -1,84 +1,30 @@
-.homepage h1 {
-    color: blue;
+/* h1 {
+    color: #ff0000;
+    color: #f00;
+    color: #00ff00;
+    color: #0000ff;
+    opacity: 0.5;
+    background-color: #ff0000;
+
+} */
+
+/*RGB*/
+h1{
+    color: #ff0000;
+    color: rgb(255,0,0);
+    color: #00f;
+    color: rgb(0,0,255);
+    color: rgb(10,50,40)
 }
 
-.about h1 {
-    color: red;
+/*RGBa*/
+h1 {
+    color: rgba(255,0,0,0.5);
+    background-color: rgba(0,255,0,0.7);
 }
 
-.contact h1 {
-    color: green;
-}
+h1 {
+    /*hsl*/
+    color: hsl(0,100%,50%);
 
-.homepage nav {
-    background-color: yellow;
-}
-
-.about nav {
-    background-color: lightgreen;
-}
-
-.contact nav {
-    background-color: lightblue;
-}
-
-body.homepage {
-    background-color: gold;
-}
-
-body.contact {
-    background-color: azure;
-}
-
-body.about {
-    background-color: brown;
-}
-
-.block h2{
-    text-align: center;
-}
-
-.block img {
-
-}
-.block p {
-    text-transform: uppercase;
-    color: red;
-}
-
-.news {
-    background-color: orange;
-}
-
-.news__heading {
-    text-align: center;
-}
-
-.news__btn {
-    font-size: 30px;
-    text-transform: capitalize;
-}
-
-.news__btn--default{
-    background-color: grey;
-}
-
-.news__btn--success {
-    background-color: green;
-}
-
-/*Can conbine styling to two or more classes*/
-.blog, .news {
-    background-color: grey;
-}
-
-.main-heading {
-    font-size: 30px;
-    background-color: red;
-    text-transform: uppercase;
-}
-
-.sub-heading {
-    background-color: red;
-    text-transform: uppercase;
 }
