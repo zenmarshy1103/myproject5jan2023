@@ -1,0 +1,84 @@
+.homepage h1 {
+    color: blue;
+}
+
+.about h1 {
+    color: red;
+}
+
+.contact h1 {
+    color: green;
+}
+
+.homepage nav {
+    background-color: yellow;
+}
+
+.about nav {
+    background-color: lightgreen;
+}
+
+.contact nav {
+    background-color: lightblue;
+}
+
+body.homepage {
+    background-color: gold;
+}
+
+body.contact {
+    background-color: azure;
+}
+
+body.about {
+    background-color: brown;
+}
+
+.block h2{
+    text-align: center;
+}
+
+.block img {
+
+}
+.block p {
+    text-transform: uppercase;
+    color: red;
+}
+
+.news {
+    background-color: orange;
+}
+
+.news__heading {
+    text-align: center;
+}
+
+.news__btn {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.news__btn--default{
+    background-color: grey;
+}
+
+.news__btn--success {
+    background-color: green;
+}
+
+/*Can conbine styling to two or more classes*/
+.blog, .news {
+    background-color: grey;
+}
+
+.main-heading {
+    font-size: 30px;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.sub-heading {
+    background-color: red;
+    text-transform: uppercase;
+}
