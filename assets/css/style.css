@@ -1,30 +1,60 @@
-/* h1 {
-    color: #ff0000;
-    color: #f00;
-    color: #00ff00;
-    color: #0000ff;
-    opacity: 0.5;
-    background-color: #ff0000;
+/*The BOX MODEL*/
 
+/*Global Selector and it selects every element*/
+* {
+    box-sizing: border-box;
+}
+/*This only make the padding and border included*/
+
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    border: 10px solid;
 } */
-
-/*RGB*/
-h1{
-    color: #ff0000;
-    color: rgb(255,0,0);
-    color: #00f;
-    color: rgb(0,0,255);
-    color: rgb(10,50,40)
-}
-
-/*RGBa*/
-h1 {
-    color: rgba(255,0,0,0.5);
-    background-color: rgba(0,255,0,0.7);
+/*inline block , merging block and incline styling*/
+a.link {
+    display: inline;
+    background-color: red;
 }
 
 h1 {
-    /*hsl*/
-    color: hsl(0,100%,50%);
+    background-color: orange;
+    display: inline-block;
+    
+}
 
+.box-1 {
+    background-color: #f22;
+    display: block;
+    width: 400px;
+    height: 200px;
+    border: 10px solid rgb(246, 103, 103);
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box; /*This will not affect margin*/
+    
+}
+
+/*Let the content fill the page do not set the height or it will restrict the size*/
+.box-2 {
+    background-color: #f22;
+    /* display: block; */
+    width: 400px;
+    /* height: 200px;     */
+    border: 10px solid;
+    /*padding: 10px;*/
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    /* box-sizing: border-box */
+    
 }
